@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plugin name="agreement">
+	<title>Registration agreement</title>
+	<summary>Add site rules for register page.</summary>
+	<author>Intelliants LLC</author>
+	<contributor>Intelliants LLC</contributor>
+	<version>3.4.0</version>
+	<date>2015-09-01</date>
+	<compatibility>3.4</compatibility>
+
+	<phrases>
+		<phrase key="agreement" category="frontend">You have to accept our rules.</phrase>
+		<phrase key="agree" category="frontend">I agree</phrase>
+		<phrase key="not_agree" category="frontend">I do not agree</phrase>
+	</phrases>
+
+	<hooks>
+		<hook name="phpCoreCodeAfterAll" pages="member_registration" page_type="front" filename="plugins/agreement/includes/hook.phpCoreCodeAfterAll.php"><![CDATA[]]></hook>
+	</hooks>
+</plugin>
