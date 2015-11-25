@@ -4,9 +4,9 @@
 	<summary>Add site rules for register page.</summary>
 	<author>Intelliants LLC</author>
 	<contributor>Intelliants LLC</contributor>
-	<version>3.4.0</version>
-	<date>2015-09-01</date>
-	<compatibility>3.4</compatibility>
+	<version>4.0.0</version>
+	<date>2015-11-25</date>
+	<compatibility>4.0</compatibility>
 
 	<phrases>
 		<phrase key="agreement" category="frontend">You have to accept our rules.</phrase>
