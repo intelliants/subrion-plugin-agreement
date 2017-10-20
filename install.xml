@@ -15,6 +15,6 @@
     </phrases>
 
     <hooks>
-        <hook name="phpCoreCodeAfterAll" pages="member_registration" page_type="front" filename="hook.phpCoreCodeAfterAll"><![CDATA[]]></hook>
+        <hook name="phpCoreCodeAfterAll" pages="registration" page_type="front" filename="hook.phpCoreCodeAfterAll"><![CDATA[]]></hook>
     </hooks>
 </plugin>
